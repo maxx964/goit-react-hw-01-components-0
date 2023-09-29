@@ -7,25 +7,25 @@ function Profile({ username, tag, location, avatar, stats }) {
         <img
           src={avatar}
           alt="User avatar"
-          className="avatar"
+          className="avatar-prof"
         />
-        <p className="name">{username}</p>
-        <p className="tag">{tag}</p>
-        <p className="location">{location}</p>
+        <p className="name-prof">{username}</p>
+        <p className="tag-prof">{tag}</p>
+        <p className="location-prof">{location}</p>
       </div>
 
-      <ul className="stats">
-        <li>
-          <span className="label">Followers</span>
-          <span className="quantity">{stats.followers}</span>
+      <ul className="stats-prof">
+        <li className="item-prof">
+          <span className="label-prof_1">Followers</span>
+          <span className="quantity-prof">{stats.followers}</span>
         </li>
-        <li>
-          <span className="label">Views</span>
-          <span className="quantity">{stats.views}</span>
+        <li className="item-prof">
+          <span className="label-prof_2">Views</span>
+          <span className="quantity-prof">{stats.views}</span>
         </li>
-        <li>
-          <span className="label">Likes</span>
-          <span className="quantity">{stats.likes}</span>
+        <li className="item-prof">
+          <span className="label-prof_3">Likes</span>
+          <span className="quantity-prof">{stats.likes}</span>
         </li>
       </ul>
     </div>

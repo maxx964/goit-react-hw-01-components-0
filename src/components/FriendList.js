@@ -14,11 +14,13 @@ const FriendListItem = ({ avatar, name, isOnline }) => {
 // список друзів
 const FriendList = ({ friends }) => {
   return (
-    <ul className="friend-list">
+    <div className='wrap-frend' >
+      <ul className="friend-list">
       {friends.map(({ id, avatar, name, isOnline }) => (
         <FriendListItem key={id} avatar={avatar} name={name} isOnline={isOnline} />
       ))}
     </ul>
+      </div>
   );
 };
 

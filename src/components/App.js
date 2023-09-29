@@ -1,7 +1,8 @@
 import React from 'react';
 import Profile from './Profile';
 import Statistics from './Statistics';
-import FriendList from './FriendList'; // Імпортуємо FriendList
+import FriendList from './FriendList';
+
 
 const user = {
   username: 'Jacques Gluke',
@@ -67,7 +68,7 @@ function App() {
         stats={user.stats}
       />
       <Statistics title="Upload stats" stats={statsData} />
-      <FriendList friends={friendsData} /> {/* Додаємо FriendList */}
+      <FriendList friends={friendsData} />
     </div>
   );
 }
