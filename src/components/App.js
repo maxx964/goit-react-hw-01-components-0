@@ -60,7 +60,7 @@ const friendsData = [
 ];
 
 const transactionsData = [
-  [
+  
   {
     "id": "1e0700a2-5183-4291-85cc-2065a036a683",
     "type": "invoice",
@@ -181,7 +181,6 @@ const transactionsData = [
     "amount": "405.45",
     "currency": "MDL"
   }
-]
 
 ];
 
