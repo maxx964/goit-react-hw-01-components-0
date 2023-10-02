@@ -1,6 +1,6 @@
-.App {
-    padding: 50px 30px 50px 30px;
-    font-family: Arial, sans-serif;
+.h1 {
+    margin-bottom: 35px;
+    font-size: 40px;
 }
 
 .button {
@@ -8,6 +8,7 @@
     margin-bottom: 35px;
     padding: 10px 20px;
     font-size: 20px;
+    text-transform: capitalize;
     border-radius: 5px;
     border: hidden;
     box-shadow: 2px 2px 2px 2px rgba(46, 47, 66, 0.08), 2px 2px 2px 2px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -18,13 +19,3 @@
     background-color: #3d46f4eb;
     color: #fff;
 }
-.h1{
-    margin-bottom: 35px;
-}
- .h2{
-    margin-bottom: 35px;
- }
-
- .p{
-    font-size: 20px;
- }
