@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import { countTotalFeedback } from './feedbackUtils';
-import { countPositiveFeedback } from './positiveFeedbackUtils';
+import { countTotalFeedback } from './feedbackUtils/feedbackUtils';
+import { countPositiveFeedback } from './positiveFeedbackUtils/positiveFeedbackUtils';
 import Statistics from './Statistics/Statistics';
 import FeedbackOptions from './FeedbackOptions/FeedbackOptions';
 
