@@ -10,7 +10,17 @@
     cursor: pointer;
 }
 
-.button:hover {
-    background-color: #3d46f4eb;
+.good:hover {
+    background-color: #2aee4beb;
+    color: #fff;
+}
+
+.neutral:hover {
+    background-color: darkorange;
+    color: #fff;
+}
+
+.bad:hover {
+    background-color: crimson;
     color: #fff;
 }

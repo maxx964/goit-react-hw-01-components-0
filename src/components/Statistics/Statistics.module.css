@@ -1,3 +1,9 @@
+.wrap {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
 .h2 {
     margin-bottom: 35px;
     font-size: 40px;
