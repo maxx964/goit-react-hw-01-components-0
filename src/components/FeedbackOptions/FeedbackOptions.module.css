@@ -11,16 +11,16 @@
 }
 
 .good:hover {
-    background-color: #2aee4beb;
-    color: #fff;
+    background-color: var(--good-background-color);
+    color: var(--button-font-color);
 }
 
 .neutral:hover {
-    background-color: darkorange;
-    color: #fff;
+    background-color: var(--neutral-background-color);
+    color: var(--button-font-color);
 }
 
 .bad:hover {
-    background-color: crimson;
-    color: #fff;
+    background-color: var(--bad-background-color);
+    color: var(--button-font-color);
 }

@@ -1,5 +1,11 @@
 @import-normalize;
 
+:root {
+  --good-background-color: #2aee4beb;
+  --neutral-background-color: darkorange;
+  --bad-background-color: crimson;
+  --button-font-color: #fff;
+}
 
 h1,
 h2,
