@@ -18,6 +18,16 @@ class App extends Component {
     }));
   };
 
+    getTotal = () => {
+    const { good, neutral, bad } = this.state;
+    return good + neutral + bad;
+  }; 
+
+    getPositivePercentage = () => {
+    const { good } = this.state;
+    const total = this.getTotal();
+    return total === 0 ? 0 : (good / total) * 100;
+  };
     
 
    render() {
@@ -37,8 +47,8 @@ class App extends Component {
         good={good}
         neutral={neutral}
         bad={bad}
-        total={good + neutral + bad}
-        positivePercentage={(good / (good + neutral + bad)) * 100}
+        total={this.getTotal()}
+        positivePercentage={this.getPositivePercentage()}
       />
     )}
   </Section>
